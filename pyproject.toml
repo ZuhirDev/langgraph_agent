@@ -1,0 +1,27 @@
+[project]
+name = "temp-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ZuhirDev", email = "zelhaouzyamrani@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "langchain>=1.4.3",
+    "langchain-chroma>=1.1.0",
+    "langchain-google-genai>=4.4.0",
+    "langchain-openrouter>=0.2.9",
+    "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.2.12",
+    "langgraph-cli[inmem]>=0.4.32",
+    "langsmith>=0.14.1",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "tiktoken>=0.14.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
